@@ -79,10 +79,10 @@ Scheduling-Agent/
 1. **User logs in** via Google or GitHub (OAuth).
 2. **AI agent receives your request** (e.g., "Schedule a 1-hour meeting with John and Sarah next week").
 3. **Backend parses the request** using LangChain and the selected LLM, with all relevant meeting context.
-4. **Agent reasons about conflicts, preferences, and availability**—suggests optimal times or asks for more info if needed.
+4. **Agent reasons about conflicts, preferences, and availability**-suggests optimal times or asks for more info if needed.
 5. **Pending proposals** are held for user confirmation before any database changes.
 6. **User confirms or modifies the proposal**; only then is the meeting created/updated/deleted in the database.
-7. **Frontend updates in real time**—dashboard, calendar, and analytics reflect the latest state.
+7. **Frontend updates in real time**-dashboard, calendar, and analytics reflect the latest state.
 
 ---
 
