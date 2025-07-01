@@ -52,7 +52,7 @@ Scheduling-Agent/
 
 | Login & OAuth | Google Sign-In | Dashboard |
 |:---:|:---:|:---:|
-| ![Login](docs/screenshots/login.png) <br> _Login page with Google/GitHub OAuth_ | ![Google OAuth](docs/screenshots/oauth-google.png) <br> _Google account selection for OAuth_ | ![Dashboard](docs/screenshots/dashboard.png) <br> _Main dashboard with meeting stats and quick actions_ |
+| ![Login](docs/screenshots/login.png) <br> _Login page with Google/GitHub OAuth_ | ![Google OAuth](docs/screenshots/oauth-google.png.png) <br> _Google account selection for OAuth_ | ![Dashboard](docs/screenshots/dashboard.png) <br> _Main dashboard with meeting stats and quick actions_ |
 
 | AI Agent Chat | Meetings | Calendar |
 |:---:|:---:|:---:|
