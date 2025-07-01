@@ -74,6 +74,43 @@ Scheduling-Agent/
 
 ---
 
+## ⚙️ How It Works
+
+1. **User logs in** via Google or GitHub (OAuth).
+2. **AI agent receives your request** (e.g., "Schedule a 1-hour meeting with John and Sarah next week").
+3. **Backend parses the request** using LangChain and the selected LLM, with all relevant meeting context.
+4. **Agent reasons about conflicts, preferences, and availability**—suggests optimal times or asks for more info if needed.
+5. **Pending proposals** are held for user confirmation before any database changes.
+6. **User confirms or modifies the proposal**; only then is the meeting created/updated/deleted in the database.
+7. **Frontend updates in real time**—dashboard, calendar, and analytics reflect the latest state.
+
+---
+
+## 🧩 Extensibility
+
+- **LLM Provider Agnostic:** Easily add or switch LLMs (Gemini, OpenAI, Claude, local, etc.) by updating environment variables and LangChain configuration.
+- **Modular Backend:** Add new tools, actions, or integrations (e.g., Slack, Google Calendar) with minimal changes to the FastAPI/LangChain codebase.
+- **Frontend Ready for Expansion:** Add new pages, analytics, or user roles as needed. The React codebase is modular and easy to extend.
+
+---
+
+## 🌍 Open Source & Community
+
+- **MIT License:** Open for personal, academic, or commercial use.
+- **CONTRIBUTING.md:** Clear guidelines for contributing code, reporting issues, and submitting pull requests.
+- **Issue Templates:** Standardized templates for bug reports and feature requests to streamline collaboration.
+- **Security Best Practices:** Secrets are protected, and the codebase is ready for public collaboration.
+
+We welcome contributions, feedback, and new ideas from the community!
+
+---
+
+## 📝 Project Summary
+
+Scheduling Agent is a robust, secure, and extensible AI scheduling assistant, ready for real-world use and open-source collaboration. It combines the power of modern LLMs, a beautiful UI, and best-in-class security to make scheduling effortless and intelligent. Whether for personal productivity or team coordination, this project is built to grow and adapt with your needs.
+
+---
+
 ## ⚡ Quickstart
 
 ### 1. Clone the repo
