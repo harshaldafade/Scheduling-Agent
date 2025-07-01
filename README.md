@@ -107,7 +107,7 @@ We welcome contributions, feedback, and new ideas from the community!
 
 ## 📝 Project Summary
 
-Scheduling Agent is a robust, secure, and extensible AI scheduling assistant, ready for real-world use and open-source collaboration. It combines the power of modern LLMs, a beautiful UI, and best-in-class security to make scheduling effortless and intelligent. Whether for personal productivity or team coordination, this project is built to grow and adapt with your needs.
+The Scheduling Agent is a full-stack, AI-powered web application that acts as your intelligent assistant for seamless meeting scheduling, team coordination, and personal productivity. It leverages state-of-the-art LLMs (like Gemini, OpenAI, etc.) to understand natural language, resolve conflicts, and optimize meeting times, all while keeping your data secure and your experience smooth.
 
 ---
 
